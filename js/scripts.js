@@ -145,6 +145,68 @@
       window.open('https://html-survey-form-731eb7.netlify.app');      
   }
 
+  function responsiveModal4GitLink() {    
+    window.open('https://github.com/illi-507/jQuery-Random-Quote');    
+  }
+  function responsiveModal4LiveLink() {       
+      window.open('https://jquery-random-quote-19f6.netlify.app');      
+  }
+
+
+  /*html canvas*/
+  function canvasModal1GitLink() {    
+    window.open('https://github.com/illi-507/ComputerGraphics-Solar');    
+  }
+  function canvasModal1LiveLink() {       
+      window.open('https://solor-system-c76909.netlify.app/');      
+  }
+  function canvasModal2GitLink() {    
+    window.open('https://github.com/illi-507/ComputerGraphics-Cuboids');    
+  }
+  function canvasModal2LiveLink() {       
+      window.open('https://cuboids-46d6c0.netlify.app/');      
+  }
+
+  function canvasModal3GitLink() {    
+    window.open('https://github.com/illi-507/ComputerGraphics-Castle-');    
+  }
+  function canvasModal3LiveLink() {       
+      window.open('https://castle-bc2d91.netlify.app/');      
+  }
+
+  function canvasModal4GitLink() {    
+    window.open('https://github.com/illi-507/ComputerGraphics-Amuse-Prototype');    
+  }
+  function canvasModal4LiveLink() {       
+      window.open('https://amusepark-prototype-546334.netlify.app/');      
+  }
+  function canvasModal5GitLink() {    
+    window.open('https://github.com/illi-507/ComputerGraphics-Amuse-Textured');    
+  }
+  function canvasModal5LiveLink() {       
+      window.open('https://amuse-park-textured-4cda42.netlify.app/');      
+  }
+
+
+  
+
+  
+
+
+  
+  
+
+  
+  
+
+  
+  
+
+
+
+
+
+
   
   
   
