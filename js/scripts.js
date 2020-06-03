@@ -124,6 +124,14 @@
       window.open('https://react-drum-machine-4ff48.netlify.app');      
   }
 
+  function model7GitLink() {    
+    window.open('https://github.com/illi-507/React-GithubFinder');    
+  }
+  function model7LiveLink() {       
+      window.open('https://react-gitfinder-6eb456.netlify.app/');      
+  }
+
+    /*responsive web*/
   function responsiveModal1GitLink() {    
     window.open('https://github.com/illi-507/HTML_Product-Landing-Page');    
   }
