@@ -73,17 +73,92 @@
   window.location.href = 'https://illi-507.github.io/portfolio-test1/';
   
   }
-   
+  
+  
+ 
+
+  //window.location.href = ' https://romantic-borg-d59d4d.netlify.app/';
+  function model1GitLink() {    
+    window.open(' https://github.com/illi-507/React-ToDoList');    
+  }
+  function model1LiveLink() {       
+      window.open('https://react-todolist-0c3cf0.netlify.app');      
+  }
+
   function model2GitLink() {
-    //  alert("Hello! I am an alert box!");
+    
     window.open('https://github.com/illi-507/react-color-selector');
     
     }
-    function model2LiveLink() {
-      //  alert("Hello! I am an alert box!");
-      //window.location.href = ' https://romantic-borg-d59d4d.netlify.app/';
-      window.open('https://react-color-d59d4d.netlify.app');
+  function model2LiveLink() {    
       
-      }
-   
+    window.open('https://react-color-d59d4d.netlify.app');
+      
+  }
+
+   function model3GitLink() {    
+    window.open('https://github.com/illi-507/React-Calculator');    
+  }
+  function model3LiveLink() {       
+      window.open('https://react-calculator-04eb9a.netlify.app');      
+  }
+     
+  function model4GitLink() {    
+    window.open('https://github.com/illi-507/React-Markdown');    
+  }
+  function model4LiveLink() {       
+      window.open('https://react-markdown-cc72bd.netlify.app');      
+  }
+
+  function model5GitLink() {    
+    window.open('https://github.com/illi-507/React-Weather2');    
+  }
+  function model5LiveLink() {       
+      window.open('https://weather2-7a1fd3.netlify.app');      
+  }
+
+  function model6GitLink() {    
+    window.open('https://github.com/illi-507/React-Drum-Machine');    
+  }
+  function model6LiveLink() {       
+      window.open('https://react-drum-machine-4ff48.netlify.app');      
+  }
+
+  function responsiveModal1GitLink() {    
+    window.open('https://github.com/illi-507/HTML_Product-Landing-Page');    
+  }
+  function responsiveModal1LiveLink() {       
+      window.open('https://html-razorlandingpaget.netlify.app/');      
+  }
+
+  function responsiveModal2GitLink() {    
+    window.open('https://github.com/illi-507/HTML_Build-A-Document-Page');    
+  }
+  function responsiveModal2LiveLink() {       
+      window.open('https://html-documentpage-c7b794.netlify.app/');      
+  }
+  
+  function responsiveModal3GitLink() {    
+    window.open('https://github.com/illi-507/HTML-Survery-Form');    
+  }
+  function responsiveModal3LiveLink() {       
+      window.open('https://html-survey-form-731eb7.netlify.app');      
+  }
+
+  
+  
+  
+  
+  
+
+
+  
+
+  
+  
+  
+  
+  
+  
+  
   
