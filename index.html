@@ -27,7 +27,12 @@
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a></li>
+                        <li class="nav-item mx-0 mx-lg-1" onclick="musician()">
+                            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="./example.html" target="_blank">Me As A Musician</a>
+                        </li>
+                       
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a></li>
+                        
                     </ul>
                 </div>
             </div>
@@ -254,11 +259,13 @@
                
                     <h2 class="text-center">Hi, I’m Xingjian. Nice to meet you.</h2>
                     <div class="text-center mt-8" style="font-size:20px;">
-                        I'm a reliable and detailed-oriented individual looking for a frontend/software development full-time position where my knowledge and
-                        experience of programming will be beneficial to the company.</div>
+                        I'm a reliable and detailed-oriented individual actively looking for a frontend/software development full-time position where my knowledge and
+                        experience of programming will be beneficial to the company.
+                    </div>
                     <!--<div class="col-lg-4 mr-auto"><p class="lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p></div>-->
                 
-                <!-- About Section Button-->
+                <!-- I'm a reliable and detailed-oriented individual looking for a frontend/software development full-time position where my knowledge and
+                        experience of programming will be beneficial to the company.-->
                 <!--<div class="text-center mt-4">
                     <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/themes/freelancer/"><i class="fas fa-download mr-2"></i>Free Download!</a>
                 </div>
@@ -357,7 +364,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal1Label">Log Cabin</h2>
+                                    <h2 class="portfolio-modal-title text-secondary mb-0" id="portfolioModal1Label">ToDoList App</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -365,7 +372,11 @@
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/reactjs/todolist.png" alt="" /><!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    
+                                    <div style = "display:flex;text-align: left;font-size: 20px;"> 
+                                    <p class="" id ="todolistDescription"></p>
+                                    </div>
+
                                     <button class="btn btn-primary" data-dismiss="modal" onclick="model1GitLink()">Github Link</button>
                                     
                                     <button class="btn btn-primary" data-dismiss="modal" 
@@ -397,7 +408,9 @@
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!--  Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/reactjs/origin_color_selector.png" alt="" /><!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <div style = "display:flex;text-align: left;font-size: 20px;"> 
+                                    <p class="" id ="colorDescription"></p>
+                                    </div>
                                    
                                     <button class="btn btn-primary" data-dismiss="modal" onclick="model2GitLink()">Github Link</button>                                    
                                     <button class="btn btn-primary" data-dismiss="modal" onclick="model2LiveLink()">Live App Link</button>
@@ -421,7 +434,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal3Label">Circus Tent</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal3Label">Calculator</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -429,7 +442,9 @@
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/reactjs/calculator.png" alt="" /><!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <div style = "display:flex;text-align: left;font-size: 20px;"> 
+                                        <p class="" id ="calculatorDescription"></p>
+                                        </div>
                                     <button class="btn btn-primary" data-dismiss="modal" onclick="model3GitLink()">Github Link</button>                                    
                                     <button class="btn btn-primary" data-dismiss="modal" onclick="model3LiveLink()">Live App Link</button>
                                 </div>
@@ -451,7 +466,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal4Label">Controller</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal4Label">Markdown Previewer</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -459,7 +474,9 @@
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/reactjs/markdown.png" alt="" /><!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <div style = "display:flex;text-align: left;font-size: 20px;"> 
+                                        <p class="" id ="markdownDescription"></p>
+                                        </div>
                                     <button class="btn btn-primary" data-dismiss="modal" onclick="model4GitLink()">Github Link</button>                                    
                                     <button class="btn btn-primary" data-dismiss="modal" onclick="model4LiveLink()">Live App Link</button>
                                 </div>
@@ -481,7 +498,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal5Label">Locked Safe</h2>
+                                    <h2 class="portfolio-modal-title text-secondary mb-0" id="portfolioModal5Label">Weather App</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -489,7 +506,9 @@
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/reactjs/weather.png" alt="" /><!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <div style = "display:flex;text-align: left;font-size: 20px;"> 
+                                        <p class="" id ="weatherDescription"></p>
+                                        </div>
                                     <button class="btn btn-primary" data-dismiss="modal" onclick="model5GitLink()">Github Link</button>                                    
                                     <button class="btn btn-primary" data-dismiss="modal" onclick="model5LiveLink()">Live App Link</button>
                                 </div>
@@ -511,7 +530,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal6Label">Submarine</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal6Label">Drum Machine</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -519,7 +538,9 @@
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/reactjs/drum.png" alt="" /><!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <div style = "display:flex;text-align: left;font-size: 20px;"> 
+                                        <p class="" id ="drumDescription"></p>
+                                        </div>
                                     <button class="btn btn-primary" data-dismiss="modal" onclick="model6GitLink()">Github Link</button>                                    
                                     <button class="btn btn-primary" data-dismiss="modal" onclick="model6LiveLink()">Live App Link</button>
                                 </div>
@@ -720,7 +741,7 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <!-- Portfolio Modal - Title-->
-                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="CanvasModal1Label">Log Cabin</h2>
+                                <h2 class="portfolio-modal-title text-secondary mb-0" id="CanvasModal1Label">Solar System Simulation</h2>
                                 <!-- Icon Divider-->
                                 <div class="divider-custom">
                                     <div class="divider-custom-line"></div>
@@ -728,7 +749,7 @@
                                     <div class="divider-custom-line"></div>
                                 </div>
                                 <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/html_canvas/solar.png" alt="" /><!-- Portfolio Modal - Text-->
-                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                <p class="mb-5">Computer Graphic coursework using HTML canvas and JS.</p>
                                 <button class="btn btn-primary" data-dismiss="modal" onclick="canvasModal1GitLink()">Github Link</button>
                                 
                                 <button class="btn btn-primary" data-dismiss="modal" 
@@ -753,7 +774,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="CanvasModal2Label">Log Cabin</h2>
+                                    <h2 class="portfolio-modal-title text-secondary mb-0" id="CanvasModal2Label">Cuboids</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -761,7 +782,7 @@
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/html_canvas/cuboids.png" alt="" /><!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <p class="mb-5">Computer Graphic coursework using HTML canvas and JS.</p>
                                     <button class="btn btn-primary" data-dismiss="modal" onclick="canvasModal2GitLink()">Github Link</button>
                                     
                                     <button class="btn btn-primary" data-dismiss="modal" 
@@ -786,7 +807,7 @@
                                 <div class="row justify-content-center">
                                     <div class="col-lg-8">
                                         <!-- Portfolio Modal - Title-->
-                                        <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="CanvasModal3Label">Log Cabin</h2>
+                                        <h2 class="portfolio-modal-title text-secondary mb-0" id="CanvasModal3Label">Castle</h2>
                                         <!-- Icon Divider-->
                                         <div class="divider-custom">
                                             <div class="divider-custom-line"></div>
@@ -794,7 +815,7 @@
                                             <div class="divider-custom-line"></div>
                                         </div>
                                         <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/html_canvas/castle.png" alt="" /><!-- Portfolio Modal - Text-->
-                                        <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                        <p class="mb-5">Computer Graphic coursework using HTML canvas and JS.</p>
                                         <button class="btn btn-primary" data-dismiss="modal" onclick="canvasModal3GitLink()">Github Link</button>
                                         
                                         <button class="btn btn-primary" data-dismiss="modal" 
@@ -819,7 +840,7 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <!-- Portfolio Modal - Title-->
-                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="CanvasModal4Label">Log Cabin</h2>
+                                <h2 class="portfolio-modal-title text-secondary mb-0" id="CanvasModal4Label">Amusement Park Prototype</h2>
                                 <!-- Icon Divider-->
                                 <div class="divider-custom">
                                     <div class="divider-custom-line"></div>
@@ -827,7 +848,7 @@
                                     <div class="divider-custom-line"></div>
                                 </div>
                                 <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/html_canvas/amuse_proto.png" alt="" /><!-- Portfolio Modal - Text-->
-                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                <p class="mb-5">Computer Graphic coursework using HTML canvas and JS.</p>
                                 <button class="btn btn-primary" data-dismiss="modal" onclick="canvasModal4GitLink()">Github Link</button>
                                 
                                 <button class="btn btn-primary" data-dismiss="modal" 
@@ -852,7 +873,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="CanvasModal5Label">Log Cabin</h2>
+                                    <h2 class="portfolio-modal-title text-secondary mb-0" id="CanvasModal5Label">Amusement Park Textured</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -860,7 +881,7 @@
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/html_canvas/amuse_textured.png" alt="" /><!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <p class="mb-5">Computer Graphic coursework using HTML canvas and JS.</p>
                                     <button class="btn btn-primary" data-dismiss="modal" onclick="canvasModal5GitLink()">Github Link</button>
                                     
                                     <button class="btn btn-primary" data-dismiss="modal" 

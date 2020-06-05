@@ -78,6 +78,7 @@
  
 
   //window.location.href = ' https://romantic-borg-d59d4d.netlify.app/';
+
   function model1GitLink() {    
     window.open(' https://github.com/illi-507/React-ToDoList');    
   }
@@ -198,7 +199,78 @@
 
   
 
-  
+
+    $(document).ready(function(){
+      let url1= "https://raw.githubusercontent.com/illi-507/React-ToDoList/master/README.md";
+      $.get(url1, function(data, status){        
+        outer_text = data.split('\n');       
+        let description = "";
+        for(let i = 0; i<outer_text.length; i++){
+          description=description +outer_text[i]+ "<br>";          
+        }        
+        $("#todolistDescription").html(description);        
+      });
+
+      let url2= "https://raw.githubusercontent.com/illi-507/react-color-selector/master/README.md";
+      $.get(url2, function(data, status){        
+        outer_text = data.split('\n');       
+        let description = "";
+        for(let i = 0; i<outer_text.length; i++){
+          description=description +outer_text[i]+ "<br>";          
+        }        
+        $("#colorDescription").html(description);        
+      });
+
+      let url3= "https://raw.githubusercontent.com/illi-507/React-Calculator/master/README.md";
+      $.get(url3, function(data, status){        
+        outer_text = data.split('\n');       
+        let description = "";
+        for(let i = 0; i<outer_text.length; i++){
+          description=description +outer_text[i]+ "<br>";          
+        }        
+        $("#calculatorDescription").html(description);        
+      });
+
+      let url4= "https://raw.githubusercontent.com/illi-507/React-Markdown/master/README.md";
+      $.get(url4, function(data, status){        
+        outer_text = data.split('\n');       
+        let description = "";
+        for(let i = 0; i<outer_text.length; i++){
+          description=description +outer_text[i]+ "<br>";          
+        }        
+        $("#markdownDescription").html(description);        
+      });
+      
+      let url5= "https://raw.githubusercontent.com/illi-507/React-Weather2/master/README.md";
+      $.get(url5, function(data, status){        
+        outer_text = data.split('\n');       
+        let description = "";
+        for(let i = 0; i<outer_text.length; i++){
+          description=description +outer_text[i]+ "<br>";          
+        }        
+        $("#weatherDescription").html(description);        
+      });
+
+      let url6= "https://raw.githubusercontent.com/illi-507/React-Drum-Machine/master/README.md";
+      $.get(url6, function(data, status){        
+        outer_text = data.split('\n');       
+        let description = "";
+        for(let i = 0; i<outer_text.length; i++){
+          description=description +outer_text[i]+ "<br>";          
+        }        
+        $("#drumDescription").html(description);        
+      });
+
+
+      function musician(){
+        window.open("https://www.youtube.com/");
+      }
+     
+      
+     
+  });
+    
+    
 
 
   
