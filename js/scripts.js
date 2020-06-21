@@ -132,6 +132,32 @@
       window.open('https://react-gitfinder-6eb456.netlify.app/');      
   }
 
+    /*nodejs */
+    function nodeModal1LiveLink() {    
+      window.open('https://node-header-parser-xj.herokuapp.com/');    
+    }
+
+    function nodeModal2LiveLink() {    
+      window.open('https://node-imageuploader.herokuapp.com/');    
+    }
+    function nodeModal3LiveLink() {    
+      window.open('https://node-urlshorten.herokuapp.com/');    
+    }
+
+    function nodeModal4LiveLink() {    
+      window.open('https://node-loginsimu.glitch.me/');    
+    }
+
+    function nodeModal5LiveLink() {    
+      window.open('https://node-timestamp-xj.glitch.me/');    
+    }
+
+    
+    
+    
+    
+
+
     /*responsive web*/
   function responsiveModal1GitLink() {    
     window.open('https://github.com/illi-507/HTML_Product-Landing-Page');    
