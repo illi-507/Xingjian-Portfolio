@@ -222,6 +222,14 @@
       window.open('https://amuse-park-textured-4cda42.netlify.app/');      
   }
 
+  function mernModal1GitLink() {    
+    window.open('https://github.com/illi-507/MERN-ShoppingList');    
+  }
+  function mernModal1LiveLink() {       
+      window.open('https://mern-shopping-64281.herokuapp.com/');      
+  }
+
+
 
   
 
