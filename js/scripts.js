@@ -229,6 +229,13 @@
       window.open('https://mern-shopping-64281.herokuapp.com/');      
   }
 
+  function mernModal2GitLink() {    
+    window.open('https://github.com/illi-507/travel-search/tree/master');    
+  }
+  function mernModal2LiveLink() {       
+      window.open('https://travel-entertainment-search.herokuapp.com/');      
+  }
+
 
 
   
