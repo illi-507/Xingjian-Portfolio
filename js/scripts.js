@@ -266,6 +266,15 @@ function OAModal1LiveLink() {
     window.open('https://dreamy-edison-998846.netlify.app/');
 }
 
+function OAModal2GitLink() {
+    window.open('https://github.com/illi-507/IBM_OA_2020');
+}
+
+function OAModal2LiveLink() {
+    window.open('https://adoring-lichterman-25ca4c.netlify.app/');
+}
+
+
 
 
 
