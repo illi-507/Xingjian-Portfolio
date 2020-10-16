@@ -47,6 +47,11 @@
   box-sizing: border-box;
 }
 
+
+.bgimg1 {
+  background-image: url('../assets/img/bg1_full4.jpg');
+}
+
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -66,10 +71,13 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  background-color: black;
   
 }
 
+.whiteColor{
+  color:white;
+}
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
 }

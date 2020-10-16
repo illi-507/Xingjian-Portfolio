@@ -342,7 +342,7 @@ $(document).ready(function() {
 
 
     function musician() {
-        window.open("https://www.youtube.com/");
+        window.location("https://www.youtube.com/");
     }
 
 
