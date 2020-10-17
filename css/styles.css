@@ -51,11 +51,9 @@
    border:2px solid white;
    padding:5px;
    margin:5px;
+   font-size: 20px;
 }
 
-.bgimg1 {
-  background-image: url('../assets/img/bg1_full4.jpg');
-}
 
 html {
   font-family: sans-serif;
@@ -76,6 +74,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
+  background-image: url('../assets/img/bg1_full4.jpg');
   background-color: black;
   
 }
