@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+       <!-- Portfolio Section Heading-->
+           <!-- <h2 class="page-section-heading text-center text-uppercase text-secondary  mb-0" >Portfolio</h2>-->
+           <h2 class="page-section-heading text-center text-uppercase whiteColor mb-0" >Portfolio</h2>
+            <!-- Icon Divider-->
+
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+    
+            <fieldset>
+                <h1 style="font-size: 40px; margin:20px;" class="whiteColor">Full Stack Apps(2020): </h1>
+            </fieldset>
+    <!-- MERN stack Items-->
+    <div class="row" id="mern_app">
+        <!-- Portfolio Item 1-->
+        
+      
+        <div class="col-md-6 col-lg-4 mb-5">
+            <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#fullstackModal1">
+                <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                    <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                </div>
+                <img class="img-fluid" src="assets/img/portfolio/shoppingList_portf.png" alt="" />
+            </div>
+        </div>
+
+
+        <!-- Portfolio Item 2-->
+
+        <div class="col-md-6 col-lg-4 mb-5">
+            <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#fullstackModal2">
+                <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                    <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                </div>
+                <img class="img-fluid" src="assets/img/portfolio/travel_portf.png" alt="" />
+            </div>
+        </div>
+    </div>
+
+    <div id="fullstack modals">
+        <!--MERN Stack Modal1-->
+        <div class="portfolio-modal modal fade" id="fullstackModal1" tabindex="-1" role="dialog" aria-labelledby="nodeModal1Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="fullstackModal1">MERN Stack Shopping List</h2>
+                                    <h4 class="portfolio-modal-title " style="font-size:30px;color:red;" id="fullstackModal1">(Under Construction)</h4>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/mern/ShoppingList.png" alt="" />
+                                    <!-- Portfolio Modal - Text-->
+
+
+                                    <div style="display:flex;text-align: left;font-size: 20px;">
+                                        <p class="mb-5">A full stack application built with MERN (MongoDB, Express, React, Node.js). It also includes techs like Redux for state management and some other things like Reactstrap and React Transitions. The application is
+                                            also deployed to Heroku.</p>
+
+                                    </div>
+                                    <div style="display:flex;text-align: left;font-size: 20px;">
+                                        <p>
+                                            (So far,the Client side UI, Express API, MongoDB have been set up, the app has connected to the backend. The authentication and registration function haven't been configured and will come soon.)
+                                        </p>
+                                    </div>
+                                    <!--<button class="btn btn-primary" data-dismiss="modal" onclick="responsiveModal1GitLink()">Github Link</button>-->
+
+                                    <button class="btn btn-primary" data-dismiss="modal" onclick="mernModal1GitLink()">Github Link</button>
+
+                                    <button class="btn btn-primary" data-dismiss="modal" onclick="mernModal1LiveLink()">Live App Link</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--MERN Stack Modal2-->
+        <div class="portfolio-modal modal fade" id="fullstackModal2" tabindex="-1" role="dialog" aria-labelledby="nodeModal1Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="fullstackModal2">Travel and Enterntainment Search</h2>
+
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/mern/travel.png" alt="" />
+                                    <!-- Portfolio Modal - Text-->
+
+
+                                    <div style="display:flex;text-align: left;font-size: 20px;">
+                                        <p class="mb-5">A web application that allows users to search for places using Google Places API and display the result using React.</p>
+
+                                    </div>
+                                    <div style="display:flex;text-align: left;font-size: 20px;">
+                                        <p>
+                                            Try search key words: <span style="color: #0984e3">pizza, popeyes, target, walmart, hotel</span>
+                                        </p>
+                                    </div>
+                                    <!--<button class="btn btn-primary" data-dismiss="modal" onclick="responsiveModal1GitLink()">Github Link</button>-->
+
+                                    <button class="btn btn-primary" data-dismiss="modal" onclick="mernModal2GitLink()">Github Link</button>
+
+                                    <button class="btn btn-primary" data-dismiss="modal" onclick="mernModal2LiveLink()">Live App Link</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+ 
+    </div>
+
+</body>
+</html>

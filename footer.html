@@ -7,7 +7,7 @@
 </head>
 <body>
       <!-- About Section-->
-      <section class="page-section text-white mb-0" id="about" style="background-color: #000000;">
+      <section class="page-section text-white mb-0" id="about"">
         <div class="container">
             <!-- About Section Heading-->
             <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
@@ -22,15 +22,15 @@
             <h2 class="text-center">Hi, I’m Xingjian. Nice to meet you.</h2>
             <div class="text-center mt-8" style="font-size:20px;">
                 I'm a reliable and detailed-oriented individual actively looking for a frontend/software development full-time position where my knowledge and experience of programming will be beneficial to the company.
-            </div>
-            <!--<div class="col-lg-4 mr-auto"><p class="lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p></div>-->
-
-            <!-- I'm a reliable and detailed-oriented individual looking for a frontend/software development full-time position where my knowledge and
-                        experience of programming will be beneficial to the company.-->
-            <!--<div class="text-center mt-4">
-                    <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/themes/freelancer/"><i class="fas fa-download mr-2"></i>Free Download!</a>
+                <div style="margin-top: 25px;">
+                    
+                    <img src="/assets/img/sig.png" alt="">
                 </div>
-                -->
+            </div>
+           
+           
+              <!-- Mucisian Section-->
+            <div id = "musician"> </div>
         </div>
     </section>
     <!-- Contact Section-->
@@ -38,6 +38,7 @@
         <div class="container">
             <!-- Contact Section Heading-->
             <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
+            <h5 class="text-center text-uppercase ">(Not Working, Under Construction)</h5>
             <!-- Icon Divider-->
             <div class="divider-custom">
                 <div class="divider-custom-line"></div>
@@ -112,6 +113,12 @@
     <div class="scroll-to-top d-lg-none position-fixed">
         <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i class="fa fa-chevron-up"></i></a>
     </div>
+
+    <script>
+        $(function(){
+            $('#musician').load('musician/index.html'); 
+        });
+    </script>
 
 </body>
 </html>

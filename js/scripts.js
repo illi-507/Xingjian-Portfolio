@@ -46,6 +46,7 @@
     $('#header').load('header.html'); 
     $('#footer').load('footer.html'); 
     $('#portfolio').load('portfolio/index.html'); 
+ 
     
 
     // Collapse Navbar
@@ -348,7 +349,5 @@ $(document).ready(function() {
     function musician() {
         window.location("https://www.youtube.com/");
     }
-
-
 
 });
