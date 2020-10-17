@@ -40,6 +40,13 @@
         target: '#mainNav',
         offset: 80
     });
+    
+    // Split the entire HTML file into multiple HTML files
+    // 就是一整个HTML file屎长屎长的，看着就很蛋疼，所以要分开
+    $('#header').load('header.html'); 
+    $('#footer').load('footer.html'); 
+    $('#portfolio').load('portfolio/index.html'); 
+    
 
     // Collapse Navbar
     var navbarCollapse = function() {
@@ -65,16 +72,16 @@
         });
     });
 
+    	
+
 })(jQuery); // End of use strict
+
 
 
 function myFunction() {
     //  alert("Hello! I am an alert box!");
     window.location.href = 'https://illi-507.github.io/portfolio-test1/';
-
 }
-
-
 
 
 //window.location.href = ' https://romantic-borg-d59d4d.netlify.app/';
@@ -159,9 +166,6 @@ function nodeModal4LiveLink() {
 function nodeModal5LiveLink() {
     window.open('https://node-timestamp-xj.glitch.me/');
 }
-
-
-
 
 
 

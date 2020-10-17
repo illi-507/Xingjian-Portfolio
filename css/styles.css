@@ -47,6 +47,11 @@
   box-sizing: border-box;
 }
 
+.skill{
+   border:2px solid white;
+   padding:5px;
+   margin:5px;
+}
 
 .bgimg1 {
   background-image: url('../assets/img/bg1_full4.jpg');
