@@ -10,6 +10,15 @@
     <div id="responsive_web">
         <h1 style="font-size: 40px; margin:20px; margin-top: 100px;"  class="whiteColor">Responsive Web Design(2020): </h1>
         <div class="row">
+            <!-- Responsive Item 0-->
+            <div class="col-md-6 col-lg-4 mb-5">
+                <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#ResponsiveModal0">
+                    <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                        <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                    </div>
+                    <img class="img-fluid" src="assets/img/portfolio/nike_portf.png" alt="" />
+                </div>
+            </div>
             <!-- Responsive Item 1-->
             <div class="col-md-6 col-lg-4 mb-5">
                 <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#ResponsiveModal1">
@@ -57,6 +66,44 @@
 
 
         <div id="responsive_web modals">
+              <!--Responsive Modal0-->
+              <div class="portfolio-modal modal fade" id="ResponsiveModal0" tabindex="-1" role="dialog" aria-labelledby="ResponsiveModal1Label" aria-hidden="true">
+    
+    
+                <div class="modal-dialog modal-xl" role="document">
+                    <div class="modal-content">
+                        <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                        </button>
+                        <div class="modal-body text-center">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-8">
+                                        <!-- Portfolio Modal - Title-->
+                                        <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="ResponsiveModal0Label">Nike Shoes</h2>
+                                        <!-- Icon Divider-->
+                                        <div class="divider-custom">
+                                            <div class="divider-custom-line"></div>
+                                            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                            <div class="divider-custom-line"></div>
+                                        </div>
+                                        <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/responsive/razor.png" alt="" />
+                                        <!-- Portfolio Modal - Text-->
+    
+    
+                                        <div style="display:flex;text-align: left;font-size: 20px;">
+                                            <p class="mb-5">Nike-Shoes Shows some awesome hover effect.</p>
+                                        </div>
+                                        <button class="btn btn-primary" data-dismiss="modal" onclick="responsiveModal0GitLink()">Github Link</button>
+    
+                                        <button class="btn btn-primary" data-dismiss="modal" onclick="responsiveModal0LiveLink()">Live App Link</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <!--Responsive Modal1-->
             <div class="portfolio-modal modal fade" id="ResponsiveModal1" tabindex="-1" role="dialog" aria-labelledby="ResponsiveModal1Label" aria-hidden="true">
     

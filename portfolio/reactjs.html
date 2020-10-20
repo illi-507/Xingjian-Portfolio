@@ -13,6 +13,17 @@
     <!-- Portfolio Grid Items-->
 
     <div class="row" id="react_app">
+
+           <!-- Portfolio Item 0-->
+
+           <div class="col-md-6 col-lg-4 mb-5">
+            <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal0">
+                <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                    <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                </div>
+                <img class="img-fluid" src="assets/img/reactjs/movie.png" alt="" />
+            </div>
+        </div>
         <!-- Portfolio Item 1-->
 
         <div class="col-md-6 col-lg-4 mb-5">
@@ -20,7 +31,7 @@
                 <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                     <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                 </div>
-                <img class="img-fluid" src="assets/img/reactjs/todolist.png" alt="" />
+                <img class="img-fluid" src="assets/img/reactjs/todolist1.png" alt="" />
             </div>
         </div>
         <!-- Portfolio Item 2-->
@@ -82,7 +93,57 @@
 
 
     <div id="reactjs modals">
-        <!-- Portfolio Modals-->
+        
+          <!-- Portfolio Modal 0-->
+          <div class="portfolio-modal modal fade" id="portfolioModal0" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary mb-0" id="portfolioModal0Label">Move Search App</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/reactjs/movie.png" alt="" />
+                                    <!-- Portfolio Modal - Text-->
+
+                                    <div style="display:flex;text-align: left;font-size: 20px;">
+                                        <!--<p class="" id="todolistDescription"></p>-->
+                                        <p>Mmovie search application using the relatively new Hooks API. The app will be able to search for
+                                            movies via the movie database API and render the results to the user. It is an frontend real-world project making
+                                            use of hooks in application .<br>
+                                            Make use of React components, many hooks, an external API, styling options via CSS and handle API
+                                            requests.<br>
+                                            Tech Stack & Features<br>
+                                            1. React with Hooks<br>
+                                            2. JSX/CSS<br>
+                                            3. Reducer function to handle application state<br>
+                                            4. Reuse of React UI components <br>
+                                            5. API call using Axios module<br>
+                                        </p>
+
+                                    </div>
+
+                                    <button class="btn btn-primary" data-dismiss="modal" onclick="model1GitLink()">Github Link</button>
+
+                                    <button class="btn btn-primary" data-dismiss="modal" onclick="model1LiveLink()">Live App Link</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- Portfolio Modal 1-->
         <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
             <div class="modal-dialog modal-xl" role="document">
@@ -102,11 +163,19 @@
                                         <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
-                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/reactjs/todolist.png" alt="" />
+                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/reactjs/todolist1.png" alt="" />
                                     <!-- Portfolio Modal - Text-->
 
                                     <div style="display:flex;text-align: left;font-size: 20px;">
-                                        <p class="" id="todolistDescription"></p>
+                                        <!--<p class="" id="todolistDescription"></p>-->
+                                        <p>This project demostrates how to use ReactJS to single page application. <br>
+                                            It includes techniques as follow:<br>
+                                            1. Accept user input and store it in state variables(Also check if user input is empty).<br>
+                                            2. How to manage React state with arrays, such as add item in array, update item in array, delete item from array.s<br>
+                                            3. Use Array.map() to dynamically render elements to DOM. <br>
+                                            Furthermore, this project also demonstrates how to deploy the web app to netlify and host the app.<br>
+                                        </p>
+
                                     </div>
 
                                     <button class="btn btn-primary" data-dismiss="modal" onclick="model1GitLink()">Github Link</button>
@@ -141,7 +210,17 @@
                                     <!--  Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/reactjs/origin_color_selector.png" alt="" />
                                     <!-- Portfolio Modal - Text-->
                                     <div style="display:flex;text-align: left;font-size: 20px;">
-                                        <p class="" id="colorDescription"></p>
+                                        <!--<p class="" id="colorDescription"></p>-->
+                                        <p>
+                                            This ReactJS project is inspired from "https://flatuicolors.com/" where developers can easly look for catchy & soothing colors to use in their project. I highly imitate its basic layout and make my own
+color selector.<br>
+Techs:<br>
+1. Reuse of React UI components<br>
+2. Pass argument from one component to the other component by using "props" from ReactJS.<br>
+3. Implement copy text(color hex) to clipboard by clicking a button.<br>
+
+Furthermore, this project also demonstrates how to deploy the web app to netlify and host the app.<br>
+                                        </p>
                                     </div>
 
                                     <button class="btn btn-primary" data-dismiss="modal" onclick="model2GitLink()">Github Link</button>
@@ -176,7 +255,15 @@
                                     <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/reactjs/calculator.png" alt="" />
                                     <!-- Portfolio Modal - Text-->
                                     <div style="display:flex;text-align: left;font-size: 20px;">
-                                        <p class="" id="calculatorDescription"></p>
+                                        <!--<p class="" id="calculatorDescription"></p>-->
+                                        <p>
+                                            This ReactJS project is from freecodecamp Techs: <br>
+
+1.Reuse of three React UI components<br>
+2. The use of "props.children" to get whatever is included between the opening and closing tags when invoking a component.<br>
+3. The use of an extensive math library: mathjs<br>
+Furthermore, this project also demonstrates how to deploy the web app to netlify and host the app.<br>
+                                        </p>
                                     </div>
                                     <button class="btn btn-primary" data-dismiss="modal" onclick="model3GitLink()">Github Link</button>
                                     <button class="btn btn-primary" data-dismiss="modal" onclick="model3LiveLink()">Live App Link</button>
@@ -209,7 +296,15 @@
                                     <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/reactjs/markdown.png" alt="" />
                                     <!-- Portfolio Modal - Text-->
                                     <div style="display:flex;text-align: left;font-size: 20px;">
-                                        <p class="" id="markdownDescription"></p>
+                                      <!--  <p class="" id="markdownDescription"></p>-->
+                                      <p>
+                                        This project is from Freecodecamp. Markdown is a lightweight markup language, originally created by John Gruber and Aaron Swartz allowing people "to write using an easy-to-read, easy-to-write plain text format, then convert it to structurally valid HTML". <br>
+                                        Techs:<br>
+
+                                        1. HandleChange to accept user real-time input and show it on the app.<br>
+                                        2. The use of "dangerouslySetInnerHTML", which is React’s replacement for using innerHTML in the browser DOM.<br>
+                                        3. require("marked") to convert text to valid HTML.<br>
+                                      </p>
                                     </div>
                                     <button class="btn btn-primary" data-dismiss="modal" onclick="model4GitLink()">Github Link</button>
                                     <button class="btn btn-primary" data-dismiss="modal" onclick="model4LiveLink()">Live App Link</button>
@@ -242,7 +337,16 @@
                                     <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/reactjs/weather.png" alt="" />
                                     <!-- Portfolio Modal - Text-->
                                     <div style="display:flex;text-align: left;font-size: 20px;">
-                                        <p class="" id="weatherDescription"></p>
+                                          <!-- <p class="" id="weatherDescription"></p>-->
+                                        <p>
+                                            A simple weather app written with ReactJS who shows the temperature. <br>
+Techs:<br>
+1. "componentDitMount()" to initialize the app.<br>
+2. Get current location using js build-in library "navigator".<br>
+3. Require a weather API and do API call using Axios.<br>
+4. Format the retrieved data from API call. <br>
+
+                                        </p>
                                     </div>
                                     <button class="btn btn-primary" data-dismiss="modal" onclick="model5GitLink()">Github Link</button>
                                     <button class="btn btn-primary" data-dismiss="modal" onclick="model5LiveLink()">Live App Link</button>
@@ -275,7 +379,12 @@
                                     <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/reactjs/drum.png" alt="" />
                                     <!-- Portfolio Modal - Text-->
                                     <div style="display:flex;text-align: left;font-size: 20px;">
-                                        <p class="" id="drumDescription"></p>
+                                        <!--<p class="" id="drumDescription"></p>-->
+                                        <p>A drum machine writtin with ReactJS where you can click or push keyboard button to play. <br>
+                                            Techs:<br>
+
+                                            1. Use ES6 map method to arrange elements<br>
+                                            2. Get sound file from url and play.<br></p>
                                     </div>
                                     <button class="btn btn-primary" data-dismiss="modal" onclick="model6GitLink()">Github Link</button>
                                     <button class="btn btn-primary" data-dismiss="modal" onclick="model6LiveLink()">Live App Link</button>
@@ -308,7 +417,7 @@
                                     </div>
                                     <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/reactjs/gitfinder.png" alt="" />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">An app where you can search github user by id. Also, it can direct to the user's github page.</p>
+                                    <p class="mb-5" style="font-size: 20px;">An app where you can search github user by id. Also, it can direct to the user's github page.</p>
                                     <button class="btn btn-primary" data-dismiss="modal" onclick="model7GitLink()">Github Link</button>
                                     <button class="btn btn-primary" data-dismiss="modal" onclick="model7LiveLink()">Live App Link</button>
                                 </div>

@@ -3,7 +3,10 @@
  * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/master/LICENSE)
  */
+
 (function($) {
+
+
     "use strict"; // Start of use strict
 
     // Smooth scrolling using jQuery easing
@@ -43,12 +46,14 @@
     
     // Split the entire HTML file into multiple HTML files
     // 就是一整个HTML file屎长屎长的，看着就很蛋疼，所以要分开
-    $('#header').load('header.html'); 
-    $('#footer').load('footer.html'); 
+ 
+    $('#header').load('header.html');
     $('#portfolio').load('portfolio/index.html'); 
+    $('#footer').load('footer.html'); 
+  
+ 
  
     
-
     // Collapse Navbar
     var navbarCollapse = function() {
         if ($("#mainNav").offset().top > 100) {
@@ -72,9 +77,9 @@
             $(this).removeClass("floating-label-form-group-with-focus");
         });
     });
-
-    	
-
+   
+       
+    
 })(jQuery); // End of use strict
 
 
@@ -172,6 +177,14 @@ function nodeModal5LiveLink() {
 
 
 /*responsive web*/
+
+function responsiveModal0GitLink() {
+    window.open('https://github.com/illi-507/HTML-Nike-Shoes/tree/master');
+}
+function responsiveModal0LiveLink() {
+    window.open('https://quirky-cori-592847.netlify.app/');
+}
+
 function responsiveModal1GitLink() {
     window.open('https://github.com/illi-507/HTML_Product-Landing-Page');
 }
@@ -203,6 +216,8 @@ function responsiveModal4GitLink() {
 function responsiveModal4LiveLink() {
     window.open('https://jquery-random-quote-19f6.netlify.app');
 }
+
+
 
 
 /*html canvas*/
@@ -262,6 +277,14 @@ function mernModal2LiveLink() {
     window.open('https://travel-entertainment-search.herokuapp.com/');
 }
 
+function mernModal3LiveLink(){
+    window.open('https://illi-507.github.io/VueDemo/');
+}
+
+function mernModal3GitLink() {
+    window.open('https://github.com/illi-507/Vue-P1');
+}
+
 
 function OAModal1GitLink() {
     window.open('https://github.com/illi-507/SAP_OA_2020');
@@ -281,23 +304,27 @@ function OAModal2LiveLink() {
 
 
 
-
-
-
+/*
 $(document).ready(function() {
+    
     let url1 = "https://raw.githubusercontent.com/illi-507/React-ToDoList/master/README.md";
     $.get(url1, function(data, status) {
-        outer_text = data.split('\n');
+        console.log("data",data);
+       let outer_text = data.split('\n');
         let description = "";
         for (let i = 0; i < outer_text.length; i++) {
             description = description + outer_text[i] + "<br>";
         }
         $("#todolistDescription").html(description);
+        console.log("URL1");
+        
     });
+    console.log("URL1");
 
+   
     let url2 = "https://raw.githubusercontent.com/illi-507/react-color-selector/master/README.md";
     $.get(url2, function(data, status) {
-        outer_text = data.split('\n');
+        let outer_text = data.split('\n');
         let description = "";
         for (let i = 0; i < outer_text.length; i++) {
             description = description + outer_text[i] + "<br>";
@@ -307,7 +334,7 @@ $(document).ready(function() {
 
     let url3 = "https://raw.githubusercontent.com/illi-507/React-Calculator/master/README.md";
     $.get(url3, function(data, status) {
-        outer_text = data.split('\n');
+        let outer_text = data.split('\n');
         let description = "";
         for (let i = 0; i < outer_text.length; i++) {
             description = description + outer_text[i] + "<br>";
@@ -317,7 +344,7 @@ $(document).ready(function() {
 
     let url4 = "https://raw.githubusercontent.com/illi-507/React-Markdown/master/README.md";
     $.get(url4, function(data, status) {
-        outer_text = data.split('\n');
+        let outer_text = data.split('\n');
         let description = "";
         for (let i = 0; i < outer_text.length; i++) {
             description = description + outer_text[i] + "<br>";
@@ -325,9 +352,10 @@ $(document).ready(function() {
         $("#markdownDescription").html(description);
     });
 
+
     let url5 = "https://raw.githubusercontent.com/illi-507/React-Weather2/master/README.md";
     $.get(url5, function(data, status) {
-        outer_text = data.split('\n');
+        let outer_text = data.split('\n');
         let description = "";
         for (let i = 0; i < outer_text.length; i++) {
             description = description + outer_text[i] + "<br>";
@@ -337,7 +365,7 @@ $(document).ready(function() {
 
     let url6 = "https://raw.githubusercontent.com/illi-507/React-Drum-Machine/master/README.md";
     $.get(url6, function(data, status) {
-        outer_text = data.split('\n');
+        let outer_text = data.split('\n');
         let description = "";
         for (let i = 0; i < outer_text.length; i++) {
             description = description + outer_text[i] + "<br>";
@@ -345,9 +373,6 @@ $(document).ready(function() {
         $("#drumDescription").html(description);
     });
 
-
-    function musician() {
-        window.location("https://www.youtube.com/");
-    }
-
 });
+
+*/

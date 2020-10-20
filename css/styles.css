@@ -54,6 +54,12 @@
    font-size: 20px;
 }
 
+.skill:hover {
+  color:black;
+  background-color: white;
+  z-index: 10;
+}
+
 
 html {
   font-family: sans-serif;
