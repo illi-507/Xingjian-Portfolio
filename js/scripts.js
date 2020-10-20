@@ -92,6 +92,16 @@ function myFunction() {
 
 //window.location.href = ' https://romantic-borg-d59d4d.netlify.app/';
 
+
+function model0GitLink() {
+    window.open('https://github.com/illi-507/React-Movie-Search');
+}
+
+function model0LiveLink() {
+    window.open('https://sad-hypatia-6d00ca.netlify.app/');
+}
+
+
 function model1GitLink() {
     window.open(' https://github.com/illi-507/React-ToDoList');
 }
